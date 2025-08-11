@@ -19,7 +19,7 @@
 
 
 .blurred-snippet {
-  max-height: 4.8em; /* ~4 lines */
+  max-height: 4.8em;
   overflow: hidden;
   filter: blur(1px);
   user-select: none;
@@ -39,8 +39,8 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #fff; /* white background */
-  color: #222; /* dark text */
+  background-color: #fff;
+  color: #222; 
 }
 
 @keyframes fadeInUp {
