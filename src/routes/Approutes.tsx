@@ -10,10 +10,7 @@ export default function AppRoutes() {
       <Route path="/" element={<HomePage />} />
        <Route path="/post/:postId" element={<PostPage />} />
        <Route path="/manage-post" element={<ManagePostPage />} />
-       <Route path="/manage-post/:postId" element={<ManagePostPage />} />
         <Route path="/blog" element={<BlogPage />} />
-
-      
     </Routes>
   );
 }
